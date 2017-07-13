@@ -33,13 +33,15 @@ MainWindow::MainWindow(QWidget *parent) :
     connect(btn,SIGNAL(clicked()),this,SLOT(showFindText()));    //单击信号关联到自定义的显示查找到的文本槽上
 
     //状态栏状态变更
-    //ui->statusBar->showMessage(tr("Welcome."),2000);
-    statusLabel=new QLabel;
-    statusLabel->setMinimumSize(150,20);
-    statusLabel->setFrameShape(QFrame::WinPanel);    //设置标签形状
-    statusLabel->setFrameShadow(QFrame::Sunken);
-    ui->statusBar->addWidget(statusLabel);
-    statusLabel->setText(tr("Hello,Welcome."));
+    ui->statusBar->showMessage(tr("Welcome."));
+
+    //    基于标签页实现
+    //    statusLabel=new QLabel;
+    //    statusLabel->setMinimumSize(150,20);
+    //    statusLabel->setFrameShape(QFrame::WinPanel);    //设置标签形状
+    //    statusLabel->setFrameShadow(QFrame::Sunken);
+    //    ui->statusBar->addWidget(statusLabel);
+    //    statusLabel->setText(tr("Hello,Welcome."));
 }
 
 MainWindow::~MainWindow()
