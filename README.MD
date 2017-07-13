@@ -8,10 +8,13 @@
 - 删掉了.user文件，您可根据自己的操作系统和环境设置以方便运行。(2017.7.13 added)
 
 ### 程序截图预览
+
 程序运行界面：
+
 ![程序运行界面](https://raw.githubusercontent.com/andyliu24/notepad/master/Preview/1.png "程序运行界面")
 
 查找功能演示：
+
 ![查找功能演示](https://raw.githubusercontent.com/andyliu24/notepad/master/Preview/2.png "查找功能演示")
 
 ### 尚存bug解释
